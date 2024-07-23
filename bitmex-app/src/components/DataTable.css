@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #d0a9f5;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+}
+
+.content-cell {
+  font-size: 0.8em; 
+  line-height: 1.2; 
+}
